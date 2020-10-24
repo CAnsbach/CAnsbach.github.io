@@ -1,0 +1,34 @@
+/* CSS file used to establish borders and color theme thorughout the website*/
+
+body {
+	background-color: #021e7a;
+}
+
+.container {
+	border: solid black;
+	background-color: #94bbff;
+}
+
+nav {
+	border-top: solid black;
+	border-bottom: solid black;
+	margin-bottom: 10px;
+}
+
+aside {
+	border: solid black;
+	margin: 10px;
+}
+
+main {
+
+}
+
+footer {
+	border-top: solid black;
+	margin-top: 10px;
+}
+
+a {
+	color: #002aff;
+}
