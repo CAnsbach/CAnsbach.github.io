@@ -10,12 +10,12 @@
 
 		<meta name="author" content="Christopher Ansbach">
 
-		<meta name="description" content="This is the about site page. A brief summary is given about the website's purpose for the semester project for CIT351.">
+		<meta name="description" content="This is project two's personal webpage. A longer description is given about and information about what I learned while working on the project is also provided. A link to the GitHub repository is also given on this page.">
 
 		<title>Christopher Ansbach's Digital Portfolio</title>
 
 		<!-- Absolute Link Bootstrap content -->
-  		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 		<!-- Link the CSS style sheet theme.css in the styles directory -->
@@ -30,9 +30,10 @@
 				<!-- Diplay the title of the site and page -->
 				<heading class="text-center col">
 					<h1>Christopher Ansbach's Digital Portfolio</h1>
-					<h2>About the Site</h2>
+					<h2>Maze Generator and Solver</h2>
 				</heading>
 			</div>
+
 			<div class="row">
 				<!-- Use Bootstrap, nav, and an unordered list to create a navbar to the different webpages on the site -->
 				<nav class="navbar navbar-expand-md bg-secondary navbar-dark col">
@@ -50,8 +51,10 @@
 							<div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item text-white" href="projects.html">Projects Overview</a>
 								<div class="dropdown-divider border-dark"></div>
-								<a class="dropdown-item text-white" href="project-one.html">Project One</a>
-								<a class="dropdown-item text-white" href="project-two.html">Project Two</a>
+								<a class="dropdown-item text-white" href="DigitalPortfolio.html">Digital Portfolio</a>
+								<a class="dropdown-item text-white" href="#">Maze Generator and Solver</a>	<!-- Current Page -->
+								<a class="dropdown-item text-white" href="CET.html">Campus Event Tracker</a>
+								<a class="dropdown-item text-white" href="MLAgents.html">ML Agents Unity Project</a>
 							</div>
 						</li>
 
@@ -62,23 +65,28 @@
 						<li class="nav-item">
 							<a class="nav-link text-white" href="about.html">About Me</a>
 						</li>
-
-						<li class="nav-item">
-							<a class="nav-link text-white" href="#">About the Site</a>	<!-- Current Page -->
-						</li>
 					</ul>
 				</nav>
 			</div>
-			<div class="row">
-				<!-- Give a more detailed description of the purpose of the website and webpages. -->
-				<main class="col-md">
 
-					<h3>Overall Purpose of Website for Semester Project</h3>
+			<div class="row">
+				<main class="col">
+					<!-- Give a description of the project as well as a link to the corresponding Git Repository -->
+					<h3>Project Description</h3>
 					<section>
-						<p>This website will be a digital portfolio when it is finished.  Projects that I have worked on througout my college career can be seen on this site.  An overview of the projects that I have done is given in the "Projects Overview" webpage to give visitors a short summary of each project and a link to the its personal webpage.  Other information about myself and my career will also be available on this site in their own webpages.  Links to associated websites will also be available as needed in the asides of these webpages.  Visitors will also be able to leave suggestions if they want to help me improve the site or help come up with ideas for projects.  If visitors wish to contact me directly, a link is provided in the footer of each webpage to allow the visitors to email me.</p>
+						<p>This program generates a maze of specified size and then finds the end by using the breadth first and depth first search algorithms. If no path is available, the program will output "No Path." The repository contains the java class files needed for the program to run in an IDE.</p>
+						<a href="https://github.com/CAnsbach/In-Class-Projects/tree/master/Maze">GitHub Repository for Maze Project</a>
+					</section>
+					<br>
+
+					<!-- State what I learned from this project -->
+					<h3>What I Learned by Working on This Project</h3>
+					<section>
+						<p>While making this project I increased by understanding of the breadth first and depth first search algorithms and their possible application in the real world when it comes to searching for data in an array.</p>
 					</section>
 				</main>
 			</div>
+
 			<div class="row">
 				<!-- Provide a link for visitors to email me with any questions they may have. -->
 				<footer class="col">

@@ -29,7 +29,7 @@
 				<!-- Diplay the title of the site and page -->
 				<heading class="text-center col">
 					<h1>Christopher Ansbach's Digital Portfolio</h1>
-					<h2>Project One</h2>
+					<h2>Campus Event Tracker (CET)</h2>
 				</heading>
 			</div>
 
@@ -50,8 +50,10 @@
 							<div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
 								<a class="dropdown-item text-white" href="projects.html">Projects Overview</a>
 								<div class="dropdown-divider border-dark"></div>
-								<a class="dropdown-item text-white" href="#">Project One</a>	<!-- Current Page -->
-								<a class="dropdown-item text-white" href="project-two.html">Project Two</a>
+								<a class="dropdown-item text-white" href="DigitalPortfolio.html">Digital Portfolio</a>
+								<a class="dropdown-item text-white" href="MazeGenerator.html">Maze Generator and Solver</a>
+								<a class="dropdown-item text-white" href="#">Campus Event Tracker</a>	<!-- Current Page -->
+								<a class="dropdown-item text-white" href="MLAgents.html">ML Agents Unity Project</a>
 							</div>
 						</li>
 
@@ -61,10 +63,6 @@
 
 						<li class="nav-item">
 							<a class="nav-link text-white" href="about.html">About Me</a>
-						</li>
-
-						<li class="nav-item">
-							<a class="nav-link text-white" href="about-site.html">About the Site</a>
 						</li>
 					</ul>
 				</nav>
@@ -76,15 +74,21 @@
 					<!-- Give a description of the project as well as a link to the corresponding Git Repository -->
 					<h3>Project Description</h3>
 					<section>
-						<p>This site was made in my Web Technologies class and is used as my personal online portfolio. The repository, which is linked below (current link is a repository to a website that is to be replaced by this project in the end), contains all the HTML and CSS files, scripts, and Images needed to make the website.</p>
-						<a href="https://github.com/CAnsbach/CAnsbach.github.io">GitHub Repository for CAnsbach.github.io (Currently Different Website)</a>
+						<p>This scope of this project included setting up a website with a database, integrating security by design, utilizing the programming skills I have aquired to create an application, connecting a native Android application to a website hosted database, and researching how to implement a Google Maps fragment into the native application. The GitHub repository for this project is currently set to private to keep the Google Maps API key secured. If you would like access to the GitHub repository, please email me by using the link provided in the footer of this web page.</p>
 					</section>
 					<br>
 
 					<!-- State what I learned from this project -->
 					<h3>What I Learned by Working on This Project</h3>
 					<section>
-						<p>Throughout the process of working on this project I learned how to properly structure and create a website.  This includes the proper use of using HTML, CSS, Bootstrap, Javascript, etc. to create the different aspects of a website such as theme and structure while also keeping accessibility and interactability in mind.</p>
+						<p>Working on this project helped me learn a lot about developing an Android application and connecting it to outside resources. Prior to this project I had only created Android applicaiton that did not connect to any outside resources. I learned how to utilize PHP on my website to interact with a database and have said PHP return a JSON array. The application would log the use in if they input authorized credentials and would retrieve information from the database through a JSON file. This JSON file was then broken down into events to be inserted into a RecyclerView and displayed to the user. The research with integrating a Google Maps fragment was used to display the location of the event they selected from the RecyclerView using the latitude and longitude stored in the event object. In the end, this project was accomplished successfully and was a great learning experience. It helped me understand how applications and the web interact with each other, how the application can retrieve information from websites to display to the user, and how to work with Google APIs.</p>
+					</section>
+
+					<h3>Screenshots of the Campus Event Tracker App</h3>
+					<section>
+						<img src="image/UserLogin.jpg" width="154" title="User Login.">
+						<img src="image/EventList.jpg" width="154" title="RecyclerView of events.">
+						<img src="image/EventInfo.jpg" width="154" title="Event Info with Maps fragment.">
 					</section>
 				</main>
 			</div>
